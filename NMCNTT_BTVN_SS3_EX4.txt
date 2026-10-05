@@ -1,0 +1,23 @@
+Phần 1: 4 kiểu Naming Convention
+Kebab-case: student-profile.html → dùng cho Web, URL, HTML/CSS. Các từ nối bằng -.
+Snake_case: student_data.py → dùng cho Python. Các từ nối bằng _.
+camelCase: studentData → dùng cho JavaScript, thường đặt tên biến và hàm.
+PascalCase: StudentData → thường dùng cho Class/Component.
+Phần 2: Quyết định của nhóm
+HTML, CSS, URL: dùng kebab-case.
+Python: dùng snake_case.
+JavaScript: dùng camelCase.
+Class/Component: dùng PascalCase.
+
+Không nên dùng một chuẩn duy nhất vì mỗi ngôn ngữ có quy ước riêng. Dùng đúng chuẩn giúp code dễ đọc, dễ bảo trì và chuyên nghiệp hơn.
+
+Lưu ý về tên file
+
+Không nên dùng tiếng Việt có dấu và khoảng trắng, dù Windows cho phép, vì có thể gây lỗi khi chạy code, dùng terminal hoặc chuyển sang máy khác.
+
+Ví dụ:
+
+ bài tập Python mới.py
+ bai_tap_python_moi.py
+
+ Nguyên tắc: Không dấu, không khoảng trắng và thống nhất cách đặt tên trong từng loại file.
